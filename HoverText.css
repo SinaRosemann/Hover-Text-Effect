@@ -1,0 +1,61 @@
+
+body {
+  margin: 0px !important;
+  overflow: hidden;
+}
+h1, h2, p {
+  font-family: 'Josefin Slab', serif;
+  text-align: justify;
+  color: #ffffff;
+}
+.instruction--desktop, .instruction--mobile {
+  position: absolute;
+}
+.instruction--mobile { display: none; }
+
+.background {
+  background-color: #282828;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__text {
+  display: none;
+  width: 240px;
+  height: 240px;
+  margin: 0px;
+  padding: 20px;
+}
+
+.background__canvas {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  border: 1px solid #ffffff;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  h1 { font-size: 15px; }
+  p { font-size: 12px; }
+  .instruction--mobile { display: block; }
+  .instruction--desktop, .background__text--onlydesktop { display: none; }
+
+  .background__text {
+    display: none;
+    width: 180px;
+    height: 140px;
+    padding: 10px;
+  }
+  
+  .background__canvas {
+    width: 200px;
+    height: 160px;
+
+  }
+  
+}
