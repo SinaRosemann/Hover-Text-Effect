@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hover Effect</title>
-        <link rel="stylesheet" href="HoverText.css">
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
 
-</head>
-<html>
-        <script type="text/javascript">
                 var canvas, ctx, inner = false;
                 var currX = "0";
                 var currY = "0";
@@ -64,27 +54,3 @@
                         }
                     }
                 }
-
-        </script>
-
-
-
-
-            <body onload="init()">
-                    <h1 class="instruction--desktop">HOVER ME</h1>
-                    <h1 class="instruction--mobile">CLICK ME</h1>
-                    <div class="background">
-                            <canvas class="background__canvas" id="can"></canvas>
-                            <div class="background__text" id="text">
-                                <h1>Hi there,</h1>
-                                <p>Looks like you discovered the hover effect. Enjoy playing around with it. I added some text here just to make it look cool honestly. You can add images and other stuff as well if you feel like it, but for now this text is all you get from me. </p>
-                                <p class="background__text--onlydesktop">Thanks and check out my other pens.</p>
-                            </div>
-                    </div>
-                </body>
-                </html>
-		
-		
-		
-		
-		
